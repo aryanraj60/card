@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.profile-img {
+position: relative;
+width: 317px;
+height: 317px;
+left: 120px;
+top: 44px;
+background: url(.png);
+border-radius: 10px 10px 0px 0px;
+}
+
+.main--container {
+position: absolute;
+width: 550px;
+height: 868px;
+left: 450px;
+top: 53px;
+  
+background: #23252C
+}
+
+.main--name {
+position: absolute;
+width: 178.06px;
+height: 25.81px;
+left: 186px;
+top: 382px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.main--devrole {
+position: absolute;
+width: 178.06px;
+height: 14.19px;
+left: 186px;
+top: 414px;
+padding-top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+
+color: #F3BF99;
+}
+
+.email--button {
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/* padding: 8px 10px 5px 10px; */
+gap: 8px;
+
+position: absolute;
+width: 120px;
+height: 40px;
+left: 151px;
+top: 468px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/300 */
+
+border: 1px solid #D1D5DB;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+.linkedIn--button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/* padding: 9px 13px 9px 11px; */
+gap: 8px;
+
+position: absolute;
+width: 120px;
+height: 40px;
+left: 283px;
+top: 468px;
+
+background: #5093E2;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+.about-container {
+position: absolute;
+width: 447px;
+height: 201px;
+left: 60px;
+top: 535px;
+
+}
+
+.about-container > h1 {
+  color: #FFFFFF;
+  font-family: "Inter";
+}
+
+.about-container > p {
+  color: #D1D5DB;
+  font-family: "Inter";
+}
+
+.twitter-icon {
+position: absolute;
+left: 35.36%;
+right: 61.09%;
+top: 25.75%;
+bottom: 7.37%;
+background-color:#D1D5DB;
+padding: 3.5px ;
+width: 40px;
+
+/* background: #918E9B; */
+}
+
+.socials-container {
+position: absolute;
+width: 550px;
+height: 100px;
+left: 0px;
+top: 870px;
+
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+}
+
+.github-icon {
+position: absolute;
+left: 55%;
+right: 30.45%;
+top: 23.75%;
+bottom: 7.32%;
+width: 40px;
+background-color:#D1D5DB;
+
+/* background: #918E9B; */
+}
