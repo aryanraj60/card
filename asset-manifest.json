@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/card/static/js/main.3d6acab6.js",
+    "static/media/aryan.jpg": "/card/static/media/aryan.4b97b108e4994c0e68c0.jpg",
+    "index.html": "/card/index.html",
+    "main.3d6acab6.js.map": "/card/static/js/main.3d6acab6.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3d6acab6.js"
+  ]
+}
